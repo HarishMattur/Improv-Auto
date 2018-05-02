@@ -1,0 +1,14 @@
+----------------------------------------
+Row: 1
+C:\Users\AB17764\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+SSH connection established
+----------------------------------------
+Row: 2
+C:\Users\AB17764\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+SSH connection established
+b'Last login: Thu Apr 12 23:49:13 2018 from 10.140.19.98\r\r\nCopyright (c) 1980, 1983, 1986, 1988, 1990, 1991, 1993, 1994\r\n\tThe Regents of the University of California.  All rights reserved.\r\n\r\nFreeBSD 8.0-RELEASE-p2 (GENERIC) #2: Tue Feb  2 02:25:28 UTC 2010\r\n\r\n**********************************************************************\r\nNotice: This system is for the use of authorized account holders only.\r\n\r\nIndividuals using this computer system without authority, or in excess\r\nof their authority, are subject to having all of their activities on\r\nthis system monitored and recorded by system personnel.\r\n\r\nIn the course of monitoring individuals improperly using this system,\r\nor in the course of routine system maintenance, the activities of\r\nauthorized account holders may also be monitored.\r\n\r\nAnyone using this system expressly consents to such monitoring and is\r\nadvised that if such monitoring reveals possible evidence of criminal\r\nactivity, system personnel may provide the evidence gathered to law\r\nenforcement officials.\r\n**********************************************************************\r\n> '
+b'cd /var/improv-qatest\r\r\n> '
+b'grep 9988008557 improv.log\r\r\n04/12/2018 08:02:28 by www: NEW :DSL Line=Routing_gpon,Line-Encap=IPoE,isBonded=1 ,Speed=6M/500K,Walled-Garden=PNP/GPON-IPoE,DSLAM-SSP=DNVRCOMAJ01:1/1/16 -w 9988008557 -f Restauto -p CMN_SPVY -c DSLEMBV -K 455428918 -Q -Z restauto674 -S 1123716\r\n04/12/2018 23:49:06 by www: NEW :DSL Line=Routing_gpon,Line-Encap=IPoE,isBonded=1 ,Speed=6M/500K,Walled-Garden=PNP/GPON-IPoE,DSLAM-SSP=DNVRCOMAJ01:1/1/16 -w 9988008557 -f Restauto -p CMN_SPVY -c DSLEMBV -K 455428918 -Q -Z restauto847 -S 1123909\r\n> '
+b'./improv-lookup.tcl  restauto847 \r\r\nid:restauto847\r\r\np:CMN_SPVY\r\r\n1:m7JHL4Qc.30vQ\r\r\n2:AES1:111,53616c7465645f5f7e932e7a0e36d5802d121389f2b5e716c178df86d554c65e\r\r\nf:Restauto\r\r\nc:DSLEMBV\r\r\ng:dslemb\r\r\nC:\r\r\nK:455428918\r\r\ns:1123909\r\r\nw:9988008557\r\r\no:\r\r\nCMN_SPVY,DSL:Line=Routing_gpon isBonded=1 Line-Coding=RADSL-DMT IP-Proto=IPv4 Line-Encap=IPoE Policy=Port25Deny\r\r\n> '
